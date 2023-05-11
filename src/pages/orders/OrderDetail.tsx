@@ -147,6 +147,7 @@ const OrderDetail = () => {
                         <Form.Label>Cost</Form.Label>
                         <Form.Control onChange={costChanged} value={getOrderCost()}/>
                     </Form.Group>
+                    <Form.Label>Date</Form.Label>
                     <Form.Control
                         type="date"
                         onChange={dateOfOrderChanged}
